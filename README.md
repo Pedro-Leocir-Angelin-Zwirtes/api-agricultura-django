@@ -98,6 +98,20 @@ Cooperativas agrícolas, agrônomos e produtores rurais que desejam monitorar e 
 
 ---
 
+## ✅ Checklist de Implementação
+
+- [ ] Implementar autenticação JWT
+- [x] Criar modelos para Agricultor, Fazenda, Talhão e Atividade Agrícola
+- [x] Configurar o banco de dados PostgreSQL/SQLite
+- [x] Implementar endpoints para cadastro de fazendas e talhões
+- [ ] Criar sistema de recomendações automáticas de manejo
+- [ ] Adicionar exportação de dados em CSV/JSON
+- [ ] Configurar Celery e Redis para tarefas assíncronas (opcional)
+- [x] Criar documentação da API com drf-yasg ou drf-spectacular
+- [x] Adicionar filtros com django-filter
+- [ ] Implementar testes com Pytest
+- [ ] Configurar CI com GitHub Actions
+
 ## 📄 Autor
 
 Pedro Leocir Angelin Zwirtes
