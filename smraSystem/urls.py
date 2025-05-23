@@ -15,11 +15,11 @@ from atividadeAgricola.api import viewsets as atividadeagricolaviewsets
 from recomendacao.api import viewsets as recomendacaoviewsets
 
 route = DefaultRouter()
-route.register(r'agricultores', agricultorviewsets.AgricultorViewSets, basename="Agricultores")
-route.register(r'fazendas', fazendaviewsets.FazendasViewSets, basename="Fazendas")
-route.register(r'talhoes', talhaoviewsets.TalhoesViewSets, basename="Talhoes")
-route.register(r'atividadesAgricola', atividadeagricolaviewsets.AtividadesAgricolasViewSets, basename="AtividadesAgricola")
-route.register(r'recomendacoes', recomendacaoviewsets.RecomendacoesViewSets, basename="Recomendacoes")
+route.register(r'agricultores', agricultorviewsets.AgricultorViewSets, basename="agricultores")
+route.register(r'fazendas', fazendaviewsets.FazendasViewSets, basename="fazendas")
+route.register(r'talhoes', talhaoviewsets.TalhoesViewSets, basename="talhoes")
+route.register(r'atividadesAgricola', atividadeagricolaviewsets.AtividadesAgricolasViewSets, basename="atividadesAgricola")
+route.register(r'recomendacoes', recomendacaoviewsets.RecomendacoesViewSets, basename="recomendacoes")
 
 
 #DRF YASG
