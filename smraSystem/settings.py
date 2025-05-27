@@ -47,6 +47,8 @@ INSTALLED_APPS = [
     'recomendacao',
 ]
 
+SWAGGER_USE_COMPAT_RENDERERS = False
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',

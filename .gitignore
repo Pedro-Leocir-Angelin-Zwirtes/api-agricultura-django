@@ -5,3 +5,9 @@ db.sqlite3
 .env.*
 /media
 /staticfiles
+pass.txt
+.vscode/
+.idea/
+*.swp
+*/migrations/*.pyc
+*/migrations/__pycache__/

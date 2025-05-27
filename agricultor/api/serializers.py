@@ -3,7 +3,6 @@ from agricultor import models
 
 class AgricultorSerializers(serializers.ModelSerializer):
 
-
     class Meta:
         model = models.Agricultor
         fields = '__all__'
